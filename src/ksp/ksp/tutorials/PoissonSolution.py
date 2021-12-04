@@ -16,7 +16,7 @@ Y = zeros([n, m]);
 pressure = zeros([n, m]);
 exact = zeros([n, m]);
 
-for q in arange(0,size(data[:,0]),1):
+for q in arange(0,m*n,1):
 
 	i = int(data[q,0])
 	j = int(data[q,1])
